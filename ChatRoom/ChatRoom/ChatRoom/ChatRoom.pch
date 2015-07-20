@@ -1,0 +1,53 @@
+//
+//  ChatRoom.pch
+//  ChatRoom
+//
+//  Created by XueYulun on 15/7/17.
+//  Copyright © 2015年 __Dylan. All rights reserved.
+//
+
+#ifndef ChatRoom_pch
+#define ChatRoom_pch
+
+#import <AVOSCloud/AVOSCloud.h>
+#import <AVOSCloudSNS/AVOSCloudSNS.h>
+#import <Bolts/Bolts.h>
+#import <DoImagePickerController/DoImagePickerController.h>
+#import <MONActivityIndicatorView/MONActivityIndicatorView.h>
+#import <Masonry/Masonry.h>
+#import <OHHTTPStubs/OHHTTPStubs.h>
+#import <RKCardView/RKCardView.h>
+#import <SZTextView/SZTextView.h>
+#import <pop/POP.h>
+#import <XAspect/XAspect.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <MagicalRecord/MagicalRecord.h>
+#import <AgoraAudioKit/AgoraAudioKit.h>
+#import <JGProgressHUD/JGProgressHUD.h>
+#import <RKDropdownAlert/RKDropdownAlert.h>
+
+#import "BRFlabbyTableManager.h"
+#import "BRFlabbyTableViewCell.h"
+#import "UIColor+TRTemperatureColors.h"
+#import "ICETutorialController.h"
+#import "ICETutorialPage.h"
+#import "ICETutorialStyle.h"
+
+#import "LoginManager.h"
+#import "AVOSOperate.h"
+#import "AgoraManager.h"
+#import "CoreDataManager.h"
+#import "UIView+DLExtension.h"
+
+#import "BaseViewController.h"
+#import "BaseTableView.h"
+
+#import "LoginViewController.h"
+#import "RegistViewController.h"
+#import "VerifyViewController.h"
+
+#define AVCLASS_AGORA @"AgoraKey"
+#define AVCLASS_VOICEROOM @"VoiceRoom"
+#define AVCLASS_VIDEOROOM @"VideoRoom"
+
+#endif /* ChatRoom_pch */
